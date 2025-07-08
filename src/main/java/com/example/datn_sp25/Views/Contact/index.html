@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header id="mainHeader" class="bg-white border-bottom py-3 sticky-top shadow-sm">
+    <div class="container d-flex align-items-center justify-content-between flex-wrap">
+
+        <!-- Logo -->
+        <div class="logo me-4">
+            <img src="https://theme.hstatic.net/200000000133/1001205759/14/logo.png?v=2074" alt="VPS Fashion" height="50">
+        </div>
+
+        <!-- Menu -->
+        <nav class="d-flex menu flex-grow-1 align-items-center">
+            <a href="../Homes/Home.html" class="nav-link text-dark px-2 fw-medium">Trang chủ</a>
+            <a href="#" class="nav-link text-dark px-2 fw-medium">Đồ Nam</a>
+            <a href="../Introduces/index.html" class="nav-link text-dark px-2 fw-medium">Giới thiệu</a>
+            <a href="../Contact/index.html" class="nav-link text-dark px-2 fw-medium">Liên hệ</a>
+            <!-- Search bar -->
+            <div class="ms-auto d-flex align-items-center search-bar">
+                <img src="../../Assets/icons/search.png" alt="Tìm kiếm" class="icon-img me-3" title="Tìm kiếm">
+                <input type="text" placeholder="Bạn Muốn Tìm gì..." class="form-control form-control-sm me-2" style="width: 200px;">
+                <button class="btn btn-secondary btn-sm">Tìm Kiếm</button>
+            </div>
+        </nav>
+
+        <!-- Icons -->
+        <div class="icons d-flex align-items-center ms-3">
+            <img src="../../Assets/icons/favorite.png" alt="Yêu thích" class="icon-img me-3" title="Yêu thích">
+            <img src="../../Assets/icons/shopping-cart.png" alt="Túi" class="icon-img me-3" title="Giỏ hàng" data-bs-toggle="offcanvas" data-bs-target="#cartSidebar">
+            <img src="../../Assets/icons/user.png" alt="Tài khoản" class="icon-img me-3" title="Tài khoản">
+        </div>
+    </div>
+</header>
+
+<!-- Liên Hệ -->
+<div class="container my-5">
+    <h3 class="fw-bold mb-4">LIÊN HỆ</h3>
+
+    <div class="border-bottom mb-4 pb-3">
+        <h6 class="fw-bold">HỖ TRỢ KHÁCH HÀNG MUA ONLINE</h6>
+        <p>Hotline: 0363652758</p>
+        <p>Thời Gian: THỨ 2 đến THỨ 7</p>
+        <p>Email: nguyenvanquocvuong27042002@gmail.com</p>
+        <p>Địa Chỉ: 125A6 Trần Huy Liệu, Giảng Võ, Ba Đình, Hà Nội</p>
+    </div>
+
+    <div class="border-bottom mb-4 pb-3">
+        <h6 class="fw-bold">Chăm Sóc Khách Hàng</h6>
+        <p>Số Điện Thoại: 0385276300</p>
+        <p>Email: vuongngaph43947@fpt.edu.vn</p>
+    </div>
+
+    <div class="border-bottom mb-4 pb-3">
+        <h6 class="fw-bold">Đặt Hàng Trước</h6>
+        <p>Liên Hệ: Mr.Vương</p>
+        <p>Số Điện Thoại: 0363652758</p>
+        <a href="#" class="btn btn-danger">
+            <i class="bi bi-envelope-fill"></i> Liên Hệ
+        </a>
+    </div>
+
+    <div class="text-center">
+        <button class="btn btn-outline-dark">XEM THÊM</button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <h5>VỀ CHÚNG TÔI</h5>
+                <p>YFashion là thương hiệu thời trang nam năng động, hiện đại và trẻ trung. Chúng tôi mang đến các mẫu áo chất lượng dành riêng cho phái mạnh Việt Nam.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>ĐƯỜNG DẪN</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white-50 text-decoration-none">Trang chủ</a></li>
+                    <li><a href="#" class="text-white-50 text-decoration-none">Về chúng tôi</a></li>
+                    <li><a href="#" class="text-white-50 text-decoration-none">Thông tin liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>THÔNG TIN LIÊN HỆ</h5>
+                <p>📍 Số 3, đường Trịnh Văn Bô, Nam Từ Liêm, Hà nội</p>
+                <p>📞 0363652758</p>
+                <p>✉️ Buianhtuan.dev@gmail.com</p>
+                <form class="d-flex">
+                    <input type="email" class="form-control me-2" placeholder="Email address">
+                    <button class="btn btn-secondary">Gửi</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- OFFCANVAS GIỎ HÀNG -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cartSidebar" aria-labelledby="cartSidebarLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="cartSidebarLabel">🛒 Giỏ hàng</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+        <!-- Nếu không có sản phẩm -->
+        <div id="emptyMessage" class="empty-cart text-center d-none">
+            <img src="https://cdn-icons-png.flaticon.com/512/2038/2038854.png" alt="No product" style="width: 100px; opacity: 0.5;" />
+            <p class="mt-3 text-muted">Không có sản phẩm trong giỏ hàng</p>
+        </div>
+
+        <!-- Sản phẩm được thêm vào đây -->
+        <div id="cart-content"></div>
+
+        <!-- Hiển thị khi có sản phẩm -->
+        <div id="cartSummary" class="d-none mt-3">
+            <div class="d-flex justify-content-between">
+                <strong>Tạm tính:</strong>
+                <strong id="subtotal">0 đ</strong>
+            </div>
+            <button class="btn btn-danger w-100 mt-3" id="checkoutBtn" disabled>MUA NGAY</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
